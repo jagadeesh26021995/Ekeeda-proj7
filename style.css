@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Poppins:wght@300;600;900&display=swap');
+html{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color: teal;
+}
+.heading
+{
+    margin:auto;
+    text-align: center;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+button
+{
+    background: rgba(36, 226, 226, 0.4);
+    height: 50px;
+    width:60px;
+    color:white;
+    font-weight: bold;
+    outline: none;
+    border-radius: 20%;
+    outline: 0;
+}
+.container
+{
+    width:700px;
+    height:300px;
+    
+    margin:auto;
+    background: rgb(255,255,255,0.2);
+}
+.but
+{
+    margin-left: 300px;
+    margin-top:60px;
+   
+}
+.quote p
+{
+    font-size:25px;
+    text-align: center;
+    color: purple;
+    font-weight: 300;
+}
+#authname
+{
+    margin-left: 250px;
+}
