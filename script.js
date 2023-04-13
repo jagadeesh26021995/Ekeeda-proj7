@@ -55,10 +55,6 @@ alert("Copied Text: " + input);
 })*/
 
 function handleClick() {
-    /* Save value of myText to input variable */
-    var input = document.getElementById("quote").innerHTML;
-     /* Copy the text inside the text field */
-    navigator.clipboard.writeText(input);
-     
+   document.execCommand("COPY");
     alert("Copied Text: " + input);
 }
